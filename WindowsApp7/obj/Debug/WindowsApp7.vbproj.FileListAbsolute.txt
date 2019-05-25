@@ -1,0 +1,21 @@
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.vbprojAssemblyReference.cache
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.Resources.resources
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.vbproj.GenerateResource.cache
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.vbproj.CoreCompileInputs.cache
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\bin\Debug\Aaron's MDT.exe.config
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\bin\Debug\Aaron's MDT.exe
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\bin\Debug\Aaron's MDT.pdb
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\bin\Debug\Aaron's MDT.xml
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\Aaron's MDT.exe
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\Aaron's MDT.xml
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\Aaron's MDT.pdb
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.subjectlookup.resources
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.main.resources
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.vehiclelookup.resources
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.changelog.resources
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\bin\Debug\Aaron's MDT.exe.manifest
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\bin\Debug\Aaron's MDT.application
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\Aaron's MDT.TrustInfo.xml
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\Aaron's MDT.exe.manifest
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\Aaron's MDT.application
+C:\Users\Aaron\source\repos\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.pdreport.resources
