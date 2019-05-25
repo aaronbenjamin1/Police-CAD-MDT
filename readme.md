@@ -2,8 +2,6 @@
 
 Just an another open source CAD. Nothing to see here. Might fuck around and update it a lot.
 
-![github](https://github.com/aaronbenjamin1/simplecalculator/blob/master/images/aaronscalculator.png)
-
 ## Installation
 
 Just download the .exe file and then you're good!
