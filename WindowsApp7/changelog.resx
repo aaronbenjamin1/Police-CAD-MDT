@@ -135,7 +135,22 @@ Added copyright 2019 text easter egg to the subject lookup area
 Fixed vehicle lookup "back to menu" button
 Changed subject lookup text boxes from multiline
 Fixed to where pd report doesn't close menu tab
-</value>
+
+~~~~v 0.2a~~~~
+
+--New Features--
+Added login forms and account creation
+
+--General--
+Added check server status
+
+~~~~v 0.2b~~~~ CURRENT VERSION
+
+--New Features--
+Added Charges section
+
+--General--
+Added "Back" button in the registration forms</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

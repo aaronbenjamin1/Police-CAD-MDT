@@ -14,23 +14,30 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>publish\</PublishUrl>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Aaron\Desktop\wagner publish\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.benjispalace.com/</InstallUrl>
+    <UpdateUrl>http://107.180.40.154/</UpdateUrl>
     <ProductName>Aaron%27s MDT</ProductName>
     <PublisherName>Aaron Benjamin</PublisherName>
     <SuiteName>Uhhh</SuiteName>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>18</ApplicationRevision>
+    <ApplicationVersion>0.2.2.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -77,7 +84,20 @@
   <PropertyGroup>
     <ApplicationIcon>police_icon_0_vkK_icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6A63B2C4D19D535AFD3D5660E4647A16A4690C96</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WindowsApp7_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.16\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -108,6 +128,36 @@
       <DependentUpon>changelog.vb</DependentUpon>
     </Compile>
     <Compile Include="changelog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="civilianreg.Designer.vb">
+      <DependentUpon>civilianreg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="civilianreg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pdcharges.Designer.vb">
+      <DependentUpon>pdcharges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pdcharges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pdreg.Designer.vb">
+      <DependentUpon>pdreg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pdreg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registermain.Designer.vb">
+      <DependentUpon>registermain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registermain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pdlogin.Designer.vb">
+      <DependentUpon>pdlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pdlogin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pdreport.Designer.vb">
@@ -155,8 +205,23 @@
     <EmbeddedResource Include="changelog.resx">
       <DependentUpon>changelog.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="civilianreg.resx">
+      <DependentUpon>civilianreg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pdcharges.resx">
+      <DependentUpon>pdcharges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pdlogin.resx">
+      <DependentUpon>pdlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pdreg.resx">
+      <DependentUpon>pdreg.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="pdreport.resx">
       <DependentUpon>pdreport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registermain.resx">
+      <DependentUpon>registermain.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="vehiclelookup.resx">
       <DependentUpon>vehiclelookup.vb</DependentUpon>
@@ -175,17 +240,21 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="My Project\app.manifest" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\DataSources\pdcharges.datasource" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="WindowsApp7_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cancel %281%29.png" />
@@ -218,7 +287,20 @@
     <None Include="Resources\4b2c170a9d.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Martz90-Circle-Camera.ico" />
     <Content Include="police_icon_0_vkK_icon.ico" />
+    <None Include="Resources\yes.png" />
+    <None Include="Resources\no.png" />
+    <None Include="Resources\exit1.png" />
+    <None Include="Resources\calculator-icon.png" />
+    <None Include="Resources\jail.png" />
+    <None Include="Resources\database.png" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\img_178843.png" />
+    <None Include="Resources\lspd-222x3001.png" />
+    <None Include="Resources\lspd-222x300.png" />
+    <None Include="Resources\minimize.png" />
+    <None Include="Resources\exit.png" />
     <None Include="Resources\58025513-notebook-paper-background-paper-in-line-vector-illustration.jpg" />
     <None Include="Resources\41814901-notebook-paper-background.jpg" />
     <None Include="Resources\601.png" />

@@ -58,7 +58,8 @@
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         If MsgBox("Are you sure you want to exit?", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
-            Application.Exit()
+            Me.Hide()
+            pdlogin.Show()
         End If
     End Sub
 
@@ -117,4 +118,15 @@
         but.SetToolTip(Label14, "Don't steal my work bitch.")
     End Sub
 
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        If MsgBox("Are you sure you want to log out?", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
+            Me.Hide()
+            pdlogin.Show()
+        End If
+    End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+        Me.Hide()
+        pdcharges.Show()
+    End Sub
 End Class

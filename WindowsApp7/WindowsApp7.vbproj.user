@@ -1,16 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>publish\</PublishUrlHistory>
-    <InstallUrlHistory />
+    <PublishUrlHistory>C:\Users\Aaron\Desktop\wagner publish\|ftp://107.180.40.154/|ftp://107.180.40.154/cad/|\107.180.40.154\root\cad\|ftp://107.180.40.154/cad</PublishUrlHistory>
+    <InstallUrlHistory>http://www.benjispalace.com/|http://benjispalace.com/cad/Aaron%27s MDT/|\\107.180.40.154\\cad\|http://benjispalace.com/cad/|http://107.180.40.154/cad/</InstallUrlHistory>
     <SupportUrlHistory />
-    <UpdateUrlHistory />
+    <UpdateUrlHistory>http://107.180.40.154/|http://107.180.40.154/cad/|\\107.180.40.154\cad\|http://www.benjispalace.com/cad/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>
-    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
   </PropertyGroup>
   <PropertyGroup>
     <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <EnableSQLServerDebugging>true</EnableSQLServerDebugging>
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
   </PropertyGroup>
 </Project>

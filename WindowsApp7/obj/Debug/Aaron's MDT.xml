@@ -47,7 +47,27 @@ Aaron's MDT
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:WindowsApp7.My.Resources.Resources._exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.calculator_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:WindowsApp7.My.Resources.Resources.cancel__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.database">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -57,7 +77,42 @@ Aaron's MDT
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:WindowsApp7.My.Resources.Resources.exit1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.img_178843">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.jail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.lspd_222x300">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.lspd_222x3001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:WindowsApp7.My.Resources.Resources.maximize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.minimize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.no">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -78,6 +133,11 @@ Aaron's MDT
 </summary>
 </member>
 <member name="P:WindowsApp7.My.Resources.Resources.substract">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApp7.My.Resources.Resources.yes">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
